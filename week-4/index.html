@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 4 Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section id="intro">
+        <h1>Welcome to my coding quiz</h1>
+        <h2 id="headerText">Please enter your name:</h2> <br>
+    <section id="greetingInput">
+        <input id="userName">
+        <button onclick="greeting()">Submit</button>
+    </section>
+    <section id="quiz">
+    <h3 id="question"></h3>
+    <div>
+        <div id="answerA" onclick="aFun()">Touch</div>
+        <div id="answerB" onclick="bFun()">CSS</div>
+        <div id="answerC" onclick="cFun()">JavaScript</div>
+        <div id="answerD" onclick="dFun()">Functionality</div><br>
+        
+        <div id="q1Button" onclick="submitQ1()"><button>Submit Question 1</button></div>
+        <div id="q2Button" onclick="submitQ2()"><button>Submit Question 2</button></div>
+        <div id="q3Button" onclick="submitQ3()"><button>Submit Question 3</button></div>
+        <div id="q4Button" onclick="submitQ4()"><button>Submit Question 4</button></div>
+       
+    </div>
+    </section>
+    <section id="hsBtn">
+        <div onclick="hsBtn()"><button>HighScores</button></div>
+    </section>
+    <script src="myscript.js"></script>
+</body>
+</html>
